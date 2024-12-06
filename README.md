@@ -43,6 +43,6 @@ open up localhost:
 - LangChain
 - Flask
 - OpenAI
-- GPT 3
+- GPT 3.5 turbo
 - ChoromaDB
 
