@@ -9,7 +9,7 @@ from flask import Flask, render_template, jsonify, request
 from langchain.chat_models import ChatOpenAI
 from langchain.memory import ConversationSummaryMemory
 from langchain.chains import ConversationalRetrievalChain
-
+from langchain.vectorstores import Chroma
 
 
 # initialized the flask
